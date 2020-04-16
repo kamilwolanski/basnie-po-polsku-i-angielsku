@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper
+{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.bajka
+{
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: center center;
+    cursor: pointer;
+    transition: transform 2s;
+    position: relative;
+    float: left;
+}
+
+.bajka:hover
+{
+    transform: scale(1.1);
+}
+
+#olowianyzolnierzyk
+{
+    background-image: url("Ołowiany-żołnierzyk2.jpg");
+    border-left: 2px solid gold;
+    border-right: 1px solid gold;
+    
+}
+#naziarnku
+{
+    background-image: url("Na-ziarnku-grochu1.jpg");
+    border-right: 1px solid gold;
+    border-left: 1px solid gold;
+}
+#krolowasniegu
+{
+    background-image: url("Królowa-Śniegu.jpg");
+    border-right: 2px solid gold;
+    border-left: 1px solid gold;
+}
+#slowik
+{
+    background-image: url("Słowik1.jpg");
+    border-right: 1px solid gold;
+    border-left: 1px solid gold;
+}
+.details
+{
+    
+    background-color: green;
+    position: absolute;
+    width: 100%;
+    min-height: 20%;
+    height:fit-content;
+    
+    top: 30%;
+    bottom: 50%;
+    background: rgba(0,0,0,.8);
+
+    opacity: 0;
+    
+    transition: opacity 1s;
+    visibility: hidden;
+    color: goldenrod;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 4px;
+
+    box-sizing: border-box;
+   
+}
+.bajka:hover .details
+{
+    visibility: visible;
+    opacity: 1;
+    
+
+}
+
+
+
+.details h1
+{
+    margin-bottom: 10px;
+}
